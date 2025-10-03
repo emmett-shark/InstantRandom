@@ -25,7 +25,7 @@ public class LevelSelectControllerClickRandomTrackPatch : MonoBehaviour
     static bool Prefix(LevelSelectController __instance)
     {
         __instance.advanceSongs(Random.Range(1, __instance.alltrackslist.Count), true);
-        __instance.Invoke("doneRandomizing", 0f);
+        __instance.populateScores(true);
         return false;
     }
 }

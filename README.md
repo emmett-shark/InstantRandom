@@ -8,5 +8,8 @@
 - Place the .dll in `<TromboneChampDir>/BepInEx/plugins`
 
 ## Changelog
+v1.0.1
+- Don't play noise
+
 v1.0.0
 - Selects a random song without waiting for animations
